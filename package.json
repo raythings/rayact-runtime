@@ -16,7 +16,8 @@
   },
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "publishConfig": {
     "access": "public"
@@ -25,9 +26,9 @@
     "type": "git",
     "url": "git+https://github.com/raythings/rayact-runtime.git"
   },
-  "homepage": "https://github.com/raythings/rayact-runtime#readme",
+  "homepage": "https://github.com/raythings/rayact#readme",
   "bugs": {
-    "url": "https://github.com/raythings/rayact-runtime/issues"
+    "url": "https://github.com/raythings/rayact/issues"
   },
   "exports": {
     ".": {
