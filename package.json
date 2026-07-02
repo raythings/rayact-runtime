@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc && cp src/shared/material_icons.js src/shared/material_icons.d.ts dist/shared/ 2>/dev/null || true",
+    "build": "tsc; node scripts/copy-shared.mjs",
     "dev": "tsc --watch",
     "clean": "rm -rf dist",
     "prepare": "npm run build"
